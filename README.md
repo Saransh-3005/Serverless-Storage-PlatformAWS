@@ -29,6 +29,7 @@ Use Cases:
   ```bash
   my-file-sharing-bucket-amc
   ```
+  If the name is not available you can change it and along change it in the code too.
 
 * Step 2: Create the Lambda function to handle file uploads (UploadFunction): \
   Name: UploadFunction \
@@ -40,6 +41,7 @@ Use Cases:
   Name: DownloadFunction \
   Runtime: Python 3.x \
   Execution role: IAM role with S3 write permissions \
+  For IAM new role you can create new IAM role and select the administrator Permission for Personal use.
   Code: Use the DownloadFunction Python code.
 
 * Step 4: Create an API Gateway \
@@ -104,7 +106,6 @@ Use Cases:
        ```
   
 
-Link to the video tutorial: https://youtu.be/TkEubrv8gA0
 
 Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
 Follow my personal blog here:https://dev.to/yeshwanthlm/ \
