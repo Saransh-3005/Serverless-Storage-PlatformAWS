@@ -105,9 +105,3 @@ Use Cases:
        curl --location 'https://<api-id>.execute-api.<region>.amazonaws.com/dev/files?fileName=test.txt'
        ```
   
-
-
-Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
-Follow my personal blog here:https://dev.to/yeshwanthlm/ \
-Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
-For queries write to us at: amonkincloud@gmail.com 
